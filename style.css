@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.navhad {
+  color: rgb(230, 83, 60);
+}
+.nav-a {
+  color: rgb(255, 255, 255);
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 12px;
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.list li a {
+  text-decoration: none;
+}
+.list li a:hover {
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* Banner */
+.ban {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.shape {
+  font-family: "Dancing Script", cursive;
+}
+.Shape-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter", serif;
+  font-weight: 400px;
+  font-size: 16px;
+}
+.club {
+  position: static;
+  width: 190px;
+  height: 50px;
+  border: none;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  margin-top: 20px;
+}
+.down {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  position: static;
+  width: 190px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+}
+
+.banh2 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.mark1 {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  position: absolute;
+  width: 210px;
+  height: 85px;
+  left: 714px;
+  top: 507px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.mark2 {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  position: absolute;
+  width: 210px;
+  height: 85px;
+  left: 1063px;
+  top: 246px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.blank {
+  position: absolute;
+  width: 36px;
+  height: 37px;
+  left: 24px;
+  top: 22px;
+  background: rgb(230, 83, 60);
+  border-radius: 22px;
+}
+.blank-h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  font-weight: 900;
+}
+.blank-p {
+  font-size: 11px;
+  font-family: "Inter", serif;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* Main */
+.mai {
+  text-align: center;
+}
+.maih2 {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  font-size: 42px;
+  font-weight: 900;
+}
+.maip {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.zim {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.zim1 {
+  justify-content: center;
+  text-align: center;
+}
+.zimh3 {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.zimp {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter", serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+.zimimg {
+  border-radius: 120px;
+}
+
+/* Run */
+.run{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  background-color: grey;
+  margin-left: 137px;
+  margin-right: 225px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+.run-h2{
+  font-size: 40px;
+  color: white;
+  font-family: "Inter", serif;
+}
+.run-p{
+  color: white;
+  font-size: 11px;
+  font-family: "Inter", serif;
+}
+.img-run{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+
+/* Excersise */
+.ex-div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-right: 83px;
+  
+}
+.divvv{
+  display: flex;
+}
+.ex-img1{
+  width: 284px;
+}
+.ex-img2{
+  width: 363px;
+}
+.ex-img3{
+  width: 340px;
+}
+.ex-img4{
+  width: 368px;
+}
+.ex-img5{
+  width: 311px;
+}
+.ex-img6{
+  width: 311px;
+}
+
+/* Calculator */
+.pop{
+  gap: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color:rgb(62, 59, 59);
+  padding: 50px;
+}
+table {
+  width: 400px;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tr,td{
+  color: white;
+}
+
+/* input */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container input,
+.form-container select {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 3px;
+  width: calc(47% - 4px);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Team Seaction */
+.teams{
+  background-color: black;
+  padding: 100px;
+}
+.trainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(62, 59, 59);
+  border-radius: 20px;
+  padding: 15px;
+}
+.tem{
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+/* Footeer */
+.ft{
+  display:flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.fit{
+  color: red;
+  font-size: 65px;
+  font-style: italic;
+  font-weight: 800px;
+}
+.start{
+  color: #fff;
+  font-size: 30px;
+}
+.swe{
+  color: white;
+  font-size: 20px;
+}
+.ftul li{
+ 
+    list-style: none;
+}
+.ppp{
+  color: wheat;
+  text-align: center;
+  border-top: 1px solid rgb(147, 140, 140);
+  margin-top: 10px;
+}
+
+
+
+
+
+/* Responsive */
+/* small device */
+@media screen and (max-width: 576px) {
+  .zim {
+    display: grid;
+  }
+  .ban {
+    display: grid;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+  }
+  .banh2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 110%;
+  }
+  .Shape-p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", serif;
+    font-weight: 400px;
+    font-size: 10px;
+  }
+  .club {
+    position: static;
+    width: 167px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: "Inter", serif;
+
+    margin-bottom: 10px;
+  }
+  .down {
+    width: 167px;
+  }
+  .mark1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    width: 207px;
+    height: 83px;
+    left: 9px;
+    top: 886px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+  }
+  .mark2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    width: 121px;
+    height: 91px;
+    left: 297px;
+    top: 639px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+  }
+  .imggg {
+    margin-left: 90px;
+  }
+  .run{
+    display: grid;
+    justify-content: center;
+    gap: 120px;
+    background-color: grey;
+    margin-left: 10px;
+    padding: 173px;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding-top: 55px;
+    padding-bottom: 40px;
+  }
+  .img-run{
+    width: 292px;
+    height: 251px;
+  }
+  /* Exersice */
+  .ex-div{
+    margin-right: 10px;
+  }
+  
+  .ex-img1{
+    width: 68px;
+  }
+  .ex-img2{
+    width: 93px;
+  }
+  .ex-img3{
+    width: 88px;
+  }
+  /* Calculator */
+  .pop{
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  /* Team Section */
+  .teams{
+    background-color: black;
+    padding: 3px;
+  }
+  .trainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(62, 59, 59);
+    border-radius: 15px;
+    padding: 10px;
+    gap: 5px;
+  }
+  .tem{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    
+  }
+  /* footer */
+  .ft{
+    display: grid;
+    justify-content: left;
+    margin-left: 10px;
+  }
+}
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 994px) {
+  .zim {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
